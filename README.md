@@ -10,9 +10,7 @@
     <td valign="top" width="62%">
       <h3>About</h3>
       <blockquote>
-        Senior full-stack engineer enfocado en plataformas de ventas y facturación electrónica.
-        Construyo sistemas rápidos, estables y limpios con Angular, .NET y Azure Functions,
-        impulsando SQL Server con índices, particionado y tablas de resumen.
+        Senior Full-Stack Engineer especializado en plataformas de ventas y facturación electrónica (SUNAT). Diseño, construyo y escalo soluciones multi-empresa con Angular 18, .NET 8 y Azure Functions, respaldadas por SQL Server optimizado (índices filtrados, particionado, tablas de resumen). Convierto requerimientos complejos en productos robustos, medibles y mantenibles, cuidando arquitectura, seguridad y una UX limpia. Líder técnico de ALIS, integrando Microsoft Graph (Bookings, SharePoint) y servicios de Azure (APIM, Blob, Key Vault), con CI/CD sólido y estándares de código.
       </blockquote>
       <h3>Experience</h3>
       <ul>
@@ -28,9 +26,8 @@
     <td valign="top" width="38%">
       <h3>Contact</h3>
       <ul>
-        <li>LinkedIn: <a href="https://linkedin.com/in/tu-linkedin">linkedin.com/in/tu-linkedin</a></li>
         <li>GitHub: <a href="https://github.com/ingrjimenezchoque">github.com/ingrjimenezchoque</a></li>
-        <li>Email: hello@tu-dominio.com</li>
+        <li>Email: ing.rjimenezchoque@gmail.com</li>
       </ul>
       <h3>Skills</h3>
       <p><b>Languages</b><br/>
