@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="820" viewBox="0 0 1200 820" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .card { fill: #1B1A19; }
+    .title { font: 700 44px 'Segoe UI', Inter, Arial, sans-serif; fill: #E6EDF3; }
+    .subtitle { font: 400 22px 'Segoe UI', Inter, Arial, sans-serif; fill: #C7CCD1; }
+    .section { font: 700 20px 'Segoe UI', Inter, Arial, sans-serif; fill: #E6EDF3; }
+    .text { font: 400 16px/1.5 'Segoe UI', Inter, Arial, sans-serif; fill: #C7CCD1; }
+    .pill { fill: #2A2220; }
+  </style>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1200" height="820" rx="18" class="card"/>
+  <!-- Accent corner shape -->
+  <path d="M 1000 40 L 1160 40 Q 1160 40 1160 180 L 1140 180 Z"
+        fill="#FF7A45" opacity="0.06"/>
+
+  <!-- Header -->
+  <text x="40" y="80" class="title">Ricardo Jiménez</text>
+  <text x="40" y="116" dy="24" class="subtitle">Senior Full-Stack Engineer</text>
+
+  <!-- Divider -->
+  <rect x="40" y="150" width="1120" height="2" fill="#FF7A45" opacity="0.24" rx="1" />
+
+  <!-- Left column -->
+  <!-- About pill -->
+  <rect x="40" y="176" width="680" height="110" rx="20" class="pill"/>
+  <text x="58" y="206" class="section">About Me</text>
+  <foreignObject x="58" y="226" width="644" height="70">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="color:#C7CCD1;font:400 16px 'Segoe UI', Inter, Arial, sans-serif;line-height:1.5;">
+      Senior full‑stack engineer focused on sales and e‑invoicing platforms. I build fast, stable and clean systems with Angular, .NET and Azure Functions, and push SQL Server performance with indexes, partitioning and summary tables.
+    </div>
+  </foreignObject>
+
+  <!-- Experience -->
+  <text x="40" y="330" class="section">Experience</text>
+  <text x="40" y="354" class="text"><tspan x='60' dy='28'>• ALIS — multi‑company e‑invoicing, POS, inventory, wholesale pricing, reports.</tspan><tspan x='60' dy='28'>• Commercial/Consular Services — Angular wizard + Microsoft Graph Bookings + calendar UX.</tspan><tspan x='60' dy='28'>• SQL Performance — partitions on Documento/DocumentoProducto, filtered indexes, aggregations.</tspan></text>
+
+  <!-- Education -->
+  <text x="40" y="480" class="section">Education</text>
+  <text x="40" y="504" class="text"><tspan x='60' dy='24'>• Continuous learning: Microsoft Graph, Azure, SQL Server performance, Angular.</tspan></text>
+
+  <!-- Right column -->
+  <!-- Contact card -->
+  <rect x="820" y="176" width="340" height="170" rx="20" class="pill"/>
+  <text x="860" y="206" class="section">Contact</text>
+  <text x="860" y="230" class="text"><tspan x='860' dy='26'>linkedin.com/in/<tu-linkedin></tspan><tspan x='860' dy='26'>github.com/ingrjimenezchoque</tspan><tspan x='860' dy='26'>hello@<tu-dominio>.com</tspan></text>
+
+  <!-- Skills -->
+  <text x="860" y="400" class="section">Skills</text>
+  <text x="860" y="426" class="text"><tspan x='860' dy='28' font-weight='600'>Languages:</tspan> <tspan fill='#B9B2AF'>TypeScript, C#, JavaScript, SQL</tspan><tspan x='860' dy='28' font-weight='600'>Frontend:</tspan> <tspan fill='#B9B2AF'>Angular 18, RxJS, Angular Material, Bootstrap, PWA</tspan><tspan x='860' dy='28' font-weight='600'>Backend:</tspan> <tspan fill='#B9B2AF'>.NET 8 (CQRS, Dapper/EF), Azure Functions, Node.js, JWT</tspan><tspan x='860' dy='28' font-weight='600'>Data:</tspan> <tspan fill='#B9B2AF'>SQL Server, T‑SQL, indexes, partitioning, query tuning</tspan><tspan x='860' dy='28' font-weight='600'>Cloud:</tspan> <tspan fill='#B9B2AF'>Azure (Blob, APIM, Key Vault), Firebase (FCM, Auth)</tspan><tspan x='860' dy='28' font-weight='600'>Integrations:</tspan> <tspan fill='#B9B2AF'>Microsoft Graph (Bookings, SharePoint), Power Automate</tspan><tspan x='860' dy='28' font-weight='600'>DevOps:</tspan> <tspan fill='#B9B2AF'>Azure DevOps, GitHub Actions, CI/CD, Git Extensions</tspan></text>
+</svg>
